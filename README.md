@@ -2,15 +2,63 @@
 
 - Author: S.Yabunaka
 - Since: 2024.2.4
-- Update: 2024.2.4
+- Update: 2024.2.13
 
 ## 概要
 
+レスポンシブのページを実装し、提出すること。  
+自身の目指すレベルに応じて制作を行うこと。  
+
+## レベル
+
+1. HTML をしっかりと実装する
+2. レイアウトをしっかり実装する (CSS)
+3. ハンバーガーメニューの動きまで実装する
+4. メニューの開閉にアニメーションをつけてみる
+5. ローディング画面をつけてみる  
+
+※ 実装のレベルについては提出するリポジトリのどこかにメモをしておくこと。  
+
 ## デザイン
+
+- [Figma: 2024.3 - コーディング強化塾教材用](https://google.com) ※ 現在ダミーページ
 
 ## 配布素材
 
+- `/assets/images/kv.jpg`: メインビジュアル用の画像
+  - 配布元: [Pixabay](https://pixabay.com/ja/)
+
+## 制作に当たって
+
+- レイアウトなどはピクセルパーフェクトである必要はないが、バランス感が損なわれないようにデザインに近く実装を行うこと
+- ディレクトリ構成は自由とするがトップディレクトリに全てのファイルが置かれている状態は避けること
+- 文章やページの内容を変えないこと
+- 色などはデザインの通りに指定すること
+- ナビゲーションがあるがそちらは空で問題無し
+
 ## 仕様
+
+今回のデザインに使われているフォントなどの素材について
+
+### フォント
+
+- ページタイトルなど見出し部分
+  - [Glass Antiqua](https://fonts.google.com/specimen/Glass+Antiqua)
+- 本文など
+  - [BIZ UDGothic](https://fonts.google.com/specimen/BIZ+UDGothic)
+
+### アイコン
+
+- [Google Material Icons](https://fonts.google.com/icons)
+  - [Menu](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:menu:FILL@0;wght@400;GRAD@0;opsz@24)
+  - [Close](https://fonts.google.com/icons?selected=Material+Symbols+Outlined:close:FILL@0;wght@400;GRAD@0;opsz@24)
 
 ## 提出する前に確認すること
 
+- [ ] 一通りレイアウトが崩れないか、手元で確認すること
+  - [ ] レスポンスの切り替わりに問題はないか
+  - [ ] 画像の変形などが起こってないか
+  - [ ] 横スクロールの発生がないか
+  - [ ] 必要な文言が見切れたりしていないか
+- [ ] 誤字脱字、実装忘れなどがないか動きをチェックすること
+- [ ] ファイルパスのミスがないか確認すること
